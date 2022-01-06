@@ -60,6 +60,11 @@ public:
 	{
 		return (top >= 0) ? storage[top] : printf("Stack is empty\n");
 	}
+	
+	int size()
+	{
+		return top;
+	}
 };
 
 #endif //STACK_H
